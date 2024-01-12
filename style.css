@@ -1,100 +1,102 @@
 #outer-box{
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     position: relative;
-    /* left: 250px; */
     left: 250px;
-    top: 50px;
+    top: 100px;
     background-color: rgb(0, 0, 0);
     border-radius: 4px;
-}
+ }
 .header-profile{
-    width: 150px;
-    height: 60px;
+    width: 250px;
+    height: 100px;
     background-color:rgb(201, 0, 0);
     border-radius: 4px;
 }
 img{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
    position: relative;
-   left:40px;
-   bottom: 50px;
+   left:75px;
+   bottom: 70px;
    border: 1px solid rgb(201, 0, 0);
 }
 .name{
-    font-size: 12px;
+    font-size: 20px;
     font-family: Arial;
+    font-style: italic;
     position: relative;
     font-weight: bold;
-    left: 32px;
-    bottom: 60px;
+    left: 60px;
+    bottom:80px;
    color: rgb(201, 0, 0);
-   letter-spacing: 1px;
+   letter-spacing: 2px;
 }
 
 .para{
-    font-size: 6px;
+    font-size: 10px;
     font-family: Arial;
     position: relative;
     font-weight: bold;
-    left: 35px;
-    bottom: 65px;
+    left: 70px; 
+    bottom: 90px; 
     color: rgb(201, 0, 0);
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
+
 }
 .social-icone{
     position: relative;
-    left: 30px;
-    bottom: 60px;
+    left: 60px;
+    bottom: 90px;
     display: flex;
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(201, 0, 0);
+    padding: 5px;
 }
 
 .btn-one{
     font-size: 8px;
     font-family: Arial;
     position: relative;
-    bottom: 35px;
-    right: 65px;
+    bottom: 60px;
+    right: 75px;
     background-color:rgb(201, 0, 0);
     width:50px;
     border: none;
-    border-radius: 25px;
+    border-radius: 30px;
     color: aliceblue;
-    padding: 2px;
+    padding: 3px;
     cursor: pointer;
 }
 .btn-two{
     font-size: 8px;
     font-family: Arial;
     position: relative;
-    bottom: 54px;
-    left: 85px;
+    bottom: 60px;
+    left: -40px;
     background-color: rgb(201, 0, 0);
     width:50px;
     border: none;
     border-radius: 25px;
     color: aliceblue;
-    padding: 2px;
+    padding: 3px;
     cursor: pointer;
 }
 
 .icon{
     position: relative;
-    /* left: 4px; */
-    bottom: 55px;
-    font-size: 9px;
+    left: 40px;
+    bottom: 65px;
+    font-size: 10px;
     color: rgb(201, 0, 0);
 }
 
 .footer{
     position: relative;
     /* left: 10px; */
-    bottom: 63px;
+    bottom: 70px;
     font-size: 9px;
     color: rgb(201, 0, 0);  
     font-size: bold;
@@ -102,4 +104,4 @@ img{
     font-family: Arial;
     font-size: 6px; 
     text-align: center;
-}
+} 
